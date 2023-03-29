@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const wishSchema = new mongoose.Schema({
-    email:{
+    fullname:{
         type:String,
         required:true,
         
